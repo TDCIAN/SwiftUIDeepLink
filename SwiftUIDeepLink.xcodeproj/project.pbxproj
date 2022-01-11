@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1EE0F07B2788461400FCB6C4 /* SwiftUIDeepLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0F07A2788461400FCB6C4 /* SwiftUIDeepLinkApp.swift */; };
-		1EE0F07D2788461400FCB6C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0F07C2788461400FCB6C4 /* ContentView.swift */; };
 		1EE0F07F2788461600FCB6C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE0F07E2788461600FCB6C4 /* Assets.xcassets */; };
 		1EE0F0822788461600FCB6C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE0F0812788461600FCB6C4 /* Preview Assets.xcassets */; };
 		1EE0F08A2788469500FCB6C4 /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0F0892788469500FCB6C4 /* TodosView.swift */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		1EE0F0772788461400FCB6C4 /* SwiftUIDeepLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDeepLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE0F07A2788461400FCB6C4 /* SwiftUIDeepLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDeepLinkApp.swift; sourceTree = "<group>"; };
-		1EE0F07C2788461400FCB6C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EE0F07E2788461600FCB6C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE0F0812788461600FCB6C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1EE0F0882788466000FCB6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -58,11 +56,10 @@
 			children = (
 				1EE0F0882788466000FCB6C4 /* Info.plist */,
 				1EE0F07A2788461400FCB6C4 /* SwiftUIDeepLinkApp.swift */,
-				1EE0F07C2788461400FCB6C4 /* ContentView.swift */,
-				1EE0F07E2788461600FCB6C4 /* Assets.xcassets */,
-				1EE0F0802788461600FCB6C4 /* Preview Content */,
 				1EE0F0892788469500FCB6C4 /* TodosView.swift */,
 				1EE0F08B2788481600FCB6C4 /* ProfileView.swift */,
+				1EE0F07E2788461600FCB6C4 /* Assets.xcassets */,
+				1EE0F0802788461600FCB6C4 /* Preview Content */,
 			);
 			path = SwiftUIDeepLink;
 			sourceTree = "<group>";
@@ -146,7 +143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE0F08C2788481600FCB6C4 /* ProfileView.swift in Sources */,
-				1EE0F07D2788461400FCB6C4 /* ContentView.swift in Sources */,
 				1EE0F08A2788469500FCB6C4 /* TodosView.swift in Sources */,
 				1EE0F07B2788461400FCB6C4 /* SwiftUIDeepLinkApp.swift in Sources */,
 			);

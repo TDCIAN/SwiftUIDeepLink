@@ -47,7 +47,7 @@ enum TabIdentifier: Hashable {
     case profile
 }
 
-// Showing page
+// Showing page identifier
 enum PageIdentifier: Hashable {
     case todoItem(id: UUID)
 }
@@ -58,8 +58,8 @@ extension URL {
         return scheme == "hi-hello"
     }
     
-    // if case "todos" -> hi-hello://todos
-    // if case "profile" -> hi-hello://profile
+    // case "todos" -> hi-hello://todos
+    // case "profile" -> hi-hello://profile
     var tabIdentifier: TabIdentifier? {
         guard isDeepLink else { return nil }
 
